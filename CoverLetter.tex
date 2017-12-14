@@ -1,0 +1,80 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{red}     
+\renewcommand*{\namefont}{\fontsize{18}{20}\mdseries\upshape}
+\renewcommand*{\titlefont}{\fontsize{18}{20}\mdseries\upshape}
+
+% color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Pietro}{della Briotta Parolo, Ph.D.}
+\title{Data Scientist}                               % optional, remove / comment the line if not wanted
+\address{Ellipsipolku 4a,41}{02210 Espoo}{Finland}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+358505124297}                   % optional, remove / comment the line if not wanted
+
+\email{dbp.pietro@gmail.com}                               % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Nets Oy}{} %{Company, Inc.\\123 somestreet\\some city}
+\date{\today}
+\opening{To whom it may concern,}
+\closing{Yours faithfully,}
+%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+	
+I am extremely delighted at the idea of applying to the position of Data Scientist in your company. It was about 8 years 
+ago when I first heard, as a Physics undergraduate student, about the possibility of analyzing statistically 
+large data sets of human interactions as a way to increase our knowledge on human behavior and therefore allowing 
+to contribute to the development of technologies that can help individuals in their daily tasks. Ever since I've grown 
+more and more passionate about the field, continuing my academic studies with a Master Degree in Physics of Complex Systems in Turin and  
+a PhD in the analysis of scientometric data at Aalto University. During my PhD studies I have been mainly
+focused on the statistical analysis of large data sets
+with a particular interest in data stemming from scientific publications.
+
+
+Although I found my experience in Academia to be rewarding, I've decided to move away from the Academic sector in order to work with "real life" data and scenarios. 
+Working at your company would be an exciting way for me to combine the pleasure in analying large data sets, while contributing the development of practical solutions.
+
+
+\makeletterclosing
+
+\end{document}
+
+
+%% end of file `template.tex'.
